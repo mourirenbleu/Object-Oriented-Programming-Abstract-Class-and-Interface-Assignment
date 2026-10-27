@@ -53,7 +53,7 @@ Constructors initialize each service. `super("Konsultasi Dokter", 150000)` and `
 `ArrayList<LayananMedis>` is a resizable collection. It allows the application to add different concrete service objects without maintaining separate lists for each service type.
 
 ## Class diagram
-![Clinic Booking System class diagram](classDiagram/class-diagram.png)
+![Clinic Booking System class diagram](class-diagram.png)
 
 ## How to compile and run
 Requires JDK 8 or later. From the project root:
