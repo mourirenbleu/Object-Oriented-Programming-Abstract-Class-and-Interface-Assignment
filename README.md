@@ -54,28 +54,3 @@ Constructors initialize each service. `super("Konsultasi Dokter", 150000)` and `
 
 ## Class diagram
 ![Clinic Booking System class diagram](class-diagram.png)
-
-## How to compile and run
-Requires JDK 8 or later. From the project root:
-
-```bash
-javac -d out src/*.java
-java -cp out Main
-```
-
-## Example output
-```text
-=== SISTEM BOOKING KLINIK ===
-1. Lihat layanan dan biaya
-2. Booking layanan
-0. Keluar
-
---- DAFTAR LAYANAN ---
-1. Konsultasi Dokter (Konsultasi)
-   Biaya: Rp175.000,00
-2. Fisioterapi (Fisioterapi)
-   Biaya: Rp300.000,00
-```
-
-## Notes
-This is an educational console prototype, not a production-ready clinic system. Appointment availability is not checked against a database, and bookings are not persisted after the program closes. Service fees are sample values for demonstrating OOP, not actual medical pricing.
