@@ -12,8 +12,7 @@ A small console-based clinic booking example for reviewing **abstract classes, i
 ```text
 KlinikBookingSystem/
 ├── README.md
-├── classDiagram/
-│   └── class-diagram.png
+├── class-diagram.png
 └── src/
     ├── DapatDijadwalkan.java
     ├── Fisioterapi.java
